@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
 import sys
+import utils
 
 args = sys.argv[1:]
 
 if len(args) < 1:
-    print("Please give some arguments")
+    utils.usage()
 
 for i in args:
     print("=>", i)
