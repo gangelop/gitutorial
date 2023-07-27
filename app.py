@@ -8,5 +8,4 @@ args = sys.argv[1:]
 if len(args) < 1:
     utils.usage()
 
-for i in args:
-    print("=>", i)
+utils.animalPrint(args)
