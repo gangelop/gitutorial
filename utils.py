@@ -1,5 +1,9 @@
+import sys
+
 def usage():
-    print("Please give some arguments")
+    message = '''Usage:
+    {} ARGUMENT...'''.format(sys.argv[0])
+    print(message, file=sys.stderr)
 
 def animalPrint(items):
     animals = [ "😸", "🐶", "🐸" ]
