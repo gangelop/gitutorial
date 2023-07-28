@@ -6,6 +6,6 @@ def usage():
     print(message, file=sys.stderr)
 
 def animalPrint(items):
-    animals = [ "😸", "🐶", "🐸" ]
+    animals = "😸🐶🐸"
     for i in range(len(items)):
         print(animals[i % len(animals)], items[i])
